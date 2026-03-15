@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-nunito: var(--font-nunito), sans-serif;
+}
+
+@utility bg-rainbow-stripes {
+  background: linear-gradient(to bottom, 
+    #ef4444 0%, #ef4444 14.28%, 
+    #f97316 14.28%, #f97316 28.57%, 
+    #eab308 28.57%, #eab308 42.85%, 
+    #22c55e 42.85%, #22c55e 57.14%, 
+    #3b82f6 57.14%, #3b82f6 71.42%, 
+    #4f46e5 71.42%, #4f46e5 85.71%, 
+    #a855f7 85.71%, #a855f7 100%
+  );
+}
